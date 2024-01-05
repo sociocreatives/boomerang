@@ -1,0 +1,25 @@
+<div class="main-wrapper">
+  <div class="mainpage"></div>
+  <div class="login">
+    <img src="assets/images/boomerang.svg" alt="boomerang" width="200px"/>
+
+    <h4>Welcome to BoomerangPay. Please Register</h4>
+
+    <form class="form">
+      <input type="text" id="username" name="username" required placeholder="Username">
+      <input type="phone" id="phone" name="phone" required placeholder="Phone Number">
+      <input type="password" id="password" name="password" required placeholder="Password">
+      <select id="cars" name="countries" class="countries">
+        <option value="volvo">Kenya</option>
+        <option value="saab">Uganda</option>
+        <option value="mercedes">Tanzania</option>
+        <option value="audi">Rwanda</option>
+    </select>
+    <label for="document">Attach a document:</label>
+        <input type="file" id="document" name="document">
+      <button type="submit">Register</button>
+    </form>
+    <h4>Already have an account? <span><a router-link="/register">Login</a></span></h4>
+  </div>
+</div>
+
