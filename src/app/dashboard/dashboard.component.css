@@ -269,3 +269,50 @@
   width: 100%;
 }
 
+.sendmoney{
+  border: 1px solid lightgray;
+  border-radius: 2rem;
+  margin-top: 2rem;
+  padding: 3rem 1.5rem;
+  background-color: #710193;
+  background-image: url('../../assets/images/homecover.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+.sendmoney h3{
+  font-weight: 600;
+}
+
+.aboutus{
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #710193;
+}
+
+.aboutus h3{
+ font-weight: bold;
+ color: #710193;
+}
+
+.aboutus p{
+  font-size: .9rem;
+  padding-top: 1rem;
+  line-height: 1.2rem;
+}
+
+.policy{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem 0rem;
+}
+
+.policy p{
+  font-size: .8rem;
+  cursor: pointer;
+}
+
