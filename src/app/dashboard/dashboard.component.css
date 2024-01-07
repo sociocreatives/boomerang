@@ -1,71 +1,155 @@
 .maindash{
-  padding: 1rem 0rem;
-}
-.maindashtwo{
   display: flex;
-  border-top: #710193 solid .5px;
-  border-bottom: #710193 solid .5px;
-}
-.left-menu{
-  width: 250px;
-  border-right: solid .5px #710193;
 }
 
-.left-menu img{
+.containerone{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+  height: 100vh;
+  background-color: lightgray;
   padding: 1rem;
+  border-radius: 0rem 2rem 2rem 0rem;
 }
 
-.profile img{
+.menone{
+  margin-bottom: 1rem;
+  cursor: pointer;
+  width: 100%;
+}
+
+.logout img{
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.containertwo{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.contwo{
+  background-color: gray;
+  height: 100px;
+}
+.contone{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: .75rem;
+}
+
+.psec{
+  border: 3px dotted grey;
   border-radius: 50%;
-  border: solid .5px #710193;
-  width: 40px;
-  height: 40px;
+  padding: .5rem;
 }
 
-.profile{
+.profile-section button{
   display: flex;
   gap: .5rem;
+  padding: .5rem 1rem;
+  border-radius: 2rem;
+  border: 1px solid #000;
+  background-color: white;
+  font-weight: 500;
 }
 
-.right-content{
+.balance{
+  margin: 2rem 2rem;
   display: flex;
-  justify-content: space-between;
-  width: 100%;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding: 1rem;
+  gap: .5rem;
+  background-color: #EEDEF4;
+  padding: 2rem 4rem;
+  border-radius: 2rem;
 }
 
-.names h3{
+.balance h2{
+  font-size: 2.5rem;
   font-weight: 500;
   color: #710193;
 }
 
-.inpat{
-  border: solid .5px black;
-  border-radius: 2rem;
-  padding: .5rem;
+.dates{
+  width: 100%;
+  padding: 0rem 4rem;
+}
+
+.test{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid #000;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.test h4{
+  font-weight: 500;
+}
+
+.buttons{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 4rem;
+}
+
+.buttons button{
   display: flex;
   gap: .5rem;
-  min-width: 300px;
+  padding: .5rem 1rem;
+  border-radius: 2rem;
+  border: 1px solid #000;
+  background-color: white;
+  font-weight: 500;
+  cursor: pointer;
 }
 
-.search{
+.buttons button:hover{
   display: flex;
-  gap: 1rem;
+  gap: .5rem;
+  padding: .5rem 1rem;
+  border-radius: 2rem;
+  border: 1px solid #000;
+  background-color: lightgrey;
+  color: #710193;
+  font-weight: 500;
+  cursor: pointer;
 }
 
-.search input{
+.wallet{
+  width: 100%;
+  background-color: #710193;
   border: none;
+  color: white;
+  font-weight: 600;
+  padding: 1rem ;
+  border-radius: 2rem;
+  cursor: pointer;
 }
 
-.search input:focus{
-  outline: none;
+.wallet:hover{
+  background-color: #EEDEF4;
+  color: #710193;
 }
 
-.notify{
-  border-radius: 50%;
-  border: grey solid 1px;
-  width: 40px;
-  height: 40px;
-  padding: .5rem;
+.walletone{
+  padding: 2rem 4rem;
+  width: 100%;
 }
+
+
